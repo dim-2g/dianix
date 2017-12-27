@@ -1,0 +1,27 @@
+.search-form {
+  float: right;
+    position: relative;
+    top: -20px;
+    width: 200px;
+
+
+
+}
+
+
+.search-form input {
+   
+   border-radius: 7px;
+    height: 18px;
+    width: 170px;
+}
+.inpbut {
+   
+    background: url("img/lupa.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+   height: 15px !important;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    width: 18px !important;
+}
+

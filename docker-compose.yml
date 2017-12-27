@@ -1,0 +1,27 @@
+version: '2'
+services:
+    nginx:
+        image: nginx:latest
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./conf/nginx:/etc/nginx/conf.d
+            - ./www:/var/www
+            - ./logs:/var/log/nginx
+        links:
+            - php
+    php:
+        build: ./docker/php
+        links:
+            - mysql
+        volumes:
+            - ./www:/var/www
+    mysql:
+        image: mariadb
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./sqldata:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root

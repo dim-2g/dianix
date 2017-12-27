@@ -1,0 +1,2 @@
+2017/12/26 14:01:02 [alert] 1#1: worker process 7 exited on signal 9
+2017/12/27 14:18:05 [emerg] 1#1: no port in upstream "backend-site1" in /etc/nginx/conf.d/example.conf:33

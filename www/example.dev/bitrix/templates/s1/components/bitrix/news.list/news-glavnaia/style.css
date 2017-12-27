@@ -1,0 +1,34 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+div..news-list  a i
+{
+	color: #3c3e3f;
+	 font-style: italic;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color: #3c3e3f;
+	  font-family: "PFDinTextPro-light";
+}
+ div.news-list article {
+    float: left;
+    margin-right: 40px;
+    width: 450px;
+}
+.news-list a {
+ color: #3c3e3f;
+    font-family: "PFDinTextPro";
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+}
+.news-list a:hover {
+ 
+    text-decoration: underline	;
+}
